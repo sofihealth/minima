@@ -16,6 +16,8 @@ h6 {
 }
 
 
+
+
 .select-kit.combo-box .select-kit-header,
 input[type="text"],
 input[type="password"],
@@ -472,6 +474,11 @@ span.latest-poster a {
 
 .post-menu-area {
   margin: 1.5em 0 1.5em 0;
+}
+
+.topic-avatar {
+  width: 90px !important;
+  background-color: 'blue';
 }
 
 nav.post-controls .actions .create .d-icon {
