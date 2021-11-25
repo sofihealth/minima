@@ -15,7 +15,10 @@ h6 {
   font-family: "Poppins", serif;
 }
 
-
+header {
+  background-color: transparent !important;
+  
+}
 
 
 .select-kit.combo-box .select-kit-header,
@@ -81,7 +84,6 @@ tbody {
 
 .d-header {
   box-shadow: none;
-  border-bottom: 1px solid var(--primary-low, $primary-low);
 }
 
 // Navs
