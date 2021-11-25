@@ -1,3 +1,5 @@
+--tertiary-low-or-tertiary-high: rgba(255,255,255,0.5) !important;
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 // Global styles
 
@@ -495,7 +497,7 @@ span.latest-poster a {
 }
 
 .topic-avatar {
-  width: 90px !important;
+  width: 100px !important;
 }
 
 nav.post-controls .actions .create .d-icon {
@@ -777,11 +779,6 @@ a.mention-group {
   border: 1px solid var(--primary-low, $primary-low);
   background: none;
 }
-
-.topic-list-body {
-  background-color: 'red';
-}
-
 
 img.avatar {
    height: 40px !important;
