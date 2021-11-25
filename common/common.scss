@@ -251,7 +251,7 @@ span.latest-poster a {
   right: -2px;
 }
 
-@media screen and (min-width: 1160px) {
+@media screen and (min-width: 11 ) {
   .navigation-topics,
   .archetype-regular {
     .topic-list .topic-post-badges .badge-notification {
@@ -758,9 +758,17 @@ a.mention-group {
   background-color: 'red';
 }
 
+
 img.avatar {
-   height: 60px !important;
-   width: 60px !important;
+   height: 40px !important;
+   width: 40px !important;
+}
+
+.trigger-user-card {
+  img.avatar {
+   height: 90px !important;
+   width: 90px !important;
+  }
 }
 
 .user-stream-item {
