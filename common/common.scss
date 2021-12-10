@@ -163,6 +163,9 @@ tbody {
 #navigation-bar > * {
   font-size: 12px !important;
   height: 15px;
+}
+
+#navigation-bar > * > * {
   border-radius: 10px;
 }
 
@@ -172,6 +175,7 @@ tbody {
 
 .select-kit-header {
   font-size: 12px !important;
+  border-radius: 10px;
 }
 
 .list-controls .combo-box .combo-box-header {
@@ -918,6 +922,7 @@ div.bio {
 }
 
 
+
 .topic-category {
   margin-top: 10px;
 }
@@ -926,7 +931,9 @@ div.bio {
   border-radius: 10px;
 }
 
-button.widget-button.btn.btn-default.popup-menu-button.toggle-admin-menu.no-text.btn-icon, topic-footer-button {
+button.widget-button.btn.btn-default.popup-menu-button.toggle-admin-menu.no-text.btn-icon, 
+.topic-footer-button, 
+.btn-icon-text {
   border-radius: 10px;
 }
 
