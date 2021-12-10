@@ -827,8 +827,8 @@ img.avatar {
 .trigger-user-card {
   img.avatar {
    border: 1px solid rgba(255,255,255,0.5);
-   height: 90px !important;
-   width: 90px !important;
+   height: 70px !important;
+   width: 70px !important;
   }
 }
 
@@ -940,4 +940,23 @@ button.widget-button.btn.btn-default.popup-menu-button.toggle-admin-menu.no-text
 
 .fancy-title {
   margin-top: 20px !important;
+}
+
+.post-notice.new-user {
+  border-radius: 10px;
+  background: rgba(255,255,255,0.2);
+  margin-bottom: 10px;
+  border: none;
+}
+
+p, ul, ol {
+  font-size: 15px;
+}
+
+.regular.contents > * {
+  padding-top: 5px;
+}
+
+.topic-avatar .avatar-flair, .avatar-flair-preview .avatar-flair, .user-card-avatar .avatar-flair, .topic-map .poster .avatar-flair, .user-profile-avatar .avatar-flair, .user-image .avatar-flair, .latest-topic-list-item .avatar-flair {
+  right: initial !important
 }
