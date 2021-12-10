@@ -6,5 +6,8 @@
     "icons-sprite": "./spritesheet.svg"
   },
   "color_schemes": {
+    "Dark": {
+      "--primary-med-or-secondary-med": "rgba(255,255,255,0.5)"
+    }
   }
 }
