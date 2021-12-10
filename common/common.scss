@@ -446,6 +446,16 @@ span.latest-poster a {
   text-transform: unset;
   font-weight: normal;
   color: var(--primary, $primary);
+
+  .avatar {
+    height: 30px !important;
+    width: 30px !important;
+}
+}
+
+section.map.map-collapsed > * > * > * > * > img {
+  height: 30px !important;
+  width: 30px !important;
 }
 
 .gap {
