@@ -2,14 +2,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
 
     <symbol id="icon-search">
-      <svg width="40" height="40" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg width="25" height="25" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path opacity="0.9" d="M18.5 18.5L13.8416 13.7647M16 8.5C16 12.6421 12.6421 16 8.5 16C4.35786 16 1 12.6421 1 8.5C1 4.35786 4.35786 1 8.5 1C12.6421 1 16 4.35786 16 8.5Z" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
         </svg>
 
     </symbol>
 
     <symbol id="icon-menu">
-    <svg width="36" height="28" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="25" height="25" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path opacity="0.9" d="M1 1H17" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
         <path opacity="0.9" d="M1 7H17" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
         <path opacity="0.9" d="M1 13H17" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
