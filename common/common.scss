@@ -194,6 +194,12 @@ tbody {
     height: 28px;
   }
 
+  .link-top-line {
+    .byline {
+      margin-bottom: 10px !important;
+    }
+  }
+
   .byline {
     font-size: 0.875em;
     margin-bottom: 5px;
@@ -819,6 +825,10 @@ img.avatar {
    height: 90px !important;
    width: 90px !important;
   }
+}
+
+.link-bottom-line {
+  margin-top: 10px;
 }
 
 .user-stream-item {
