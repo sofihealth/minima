@@ -8,6 +8,10 @@
 
 }
 
+a.user-group, span.d-label {
+  color: rgba(255,255,255,0.5) !important;
+}
+
 .topic-avatar {
   padding-top: 1.8em
 }
@@ -22,4 +26,16 @@
 
 .user-right .list-actions .btn {
   display: none;
+}
+
+.timeline-container .topic-timeline .timeline-ago {
+  color: rgba(255,255,255,0.5) !important;
+}
+
+.topic-meta-data .post-info a {
+  color: rgba(255,255,255,0.5) !important;
+}
+
+a.mention {
+  color: rgba(255,255,255,0.75) !important;
 }
