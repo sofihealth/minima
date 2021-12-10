@@ -163,6 +163,7 @@ tbody {
 #navigation-bar > * {
   font-size: 12px !important;
   height: 15px;
+  border-radius: 10px;
 }
 
 #create-topic {
@@ -924,6 +925,15 @@ a.title.raw-link.raw-topic-link  .fancy-title > *{
 .topic-category {
   margin-top: 10px;
 }
+
+#topic-progress {
+  border-radius: 10px;
+}
+
+button.widget-button.btn.btn-default.popup-menu-button.toggle-admin-menu.no-text.btn-icon {
+  border-radius: 10px;
+}
+
 
 .fancy-title {
   margin-top: 20px !important;
