@@ -40,35 +40,7 @@
     {{raw "list/activity-column" topic=topic class="num" tagName="td"}}
 </script>
 
-<script
-  type="text/x-handlebars"
-  data-template-name="topic-list-header.raw"
-></script>
 
-<script
-  type="text/x-handlebars"
-  data-template-name="list/posts-count-column.raw"
->
-
-  <{{view.tagName}} class='num posts-map posts {{view.likesHeat}}' title='{{view.title}}'>
-
-  <a href class='posts-map badge-posts {{view.likesHeat}}'>
-    {{d-icon "far-comment"}}
-
-    {{raw-plugin-outlet name="topic-list-before-reply-count"}}
-    {{number topic.replyCount noTitle="true"}}
-  </a>
-  </{{view.tagName}}>
-</script>
-
-<script
-  type="text/x-handlebars"
-  data-template-name="/connectors/topic-list-before-status/op-name.raw"
->
-  <div class="byline">
-    <a href="{{context.topic.posters.[0].user.userPath}}" data-user-card="{{context.topic.posters.[0].user.username}}">{{avatar context.topic.posters.[0].user imageSize='tiny'}}{{context.topic.posters.[0].user.username}}</a>
-  </div>
-</script>
 
 <script type="text/x-handlebars" data-template-name="list/activity-column.raw">
 
