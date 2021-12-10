@@ -6,8 +6,20 @@
     "icons-sprite": "./spritesheet.svg"
   },
   "color_schemes": {
-    "Dark": {
-      "--primary-med-or-secondary-med": "rgba(255,255,255,0.5)"
+    "Treehouse": {
+      "--primary-med-or-secondary-med": "rgba(255,255,255,0.5)",
+      "--primary": "#ddd",
+      "--secondary": "#06081E",
+      "--tertiary": "#0f82af",
+      "--quaternary": "#0f82af",
+      "--header_background": "#111",
+      "--header_primary": "#ddd",
+      "--highlight": "#0f82af",
+      "--danger": "#f38628",
+      "--success": "#0f82af",
+      "--love": "#0f82af"
     }
   }
 }
+
+    
