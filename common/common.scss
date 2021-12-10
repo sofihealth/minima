@@ -154,6 +154,14 @@ tbody {
 .alert.alert-info {
   background-color: rgba(255,255,255,0.1) !important;
   border-radius:10px;
+  padding: 30px;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  line-height: 25px;
+}
+
+.ember-view {
+  font-size: 12px !important;
 }
 
 .main-link {
