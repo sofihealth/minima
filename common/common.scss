@@ -454,8 +454,13 @@ span.latest-poster a {
 }
 
 section.map.map-collapsed > * > * > * > * > img {
-  height: 30px !important;
-  width: 30px !important;
+  height: 35px !important;
+  width: 35px !important;
+}
+
+.topic-map-post > .trigger-user-card > img {
+  height: 35px !important;
+  width: 35px !important;
 }
 
 .gap {
